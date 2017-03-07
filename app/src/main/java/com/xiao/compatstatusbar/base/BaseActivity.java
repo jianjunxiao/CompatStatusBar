@@ -24,6 +24,7 @@ public class BaseActivity extends SwipeBackActivity {
         super.onCreate(savedInstanceState);
     }
 
+
     @Override
     public void finish() {
         super.finish();
