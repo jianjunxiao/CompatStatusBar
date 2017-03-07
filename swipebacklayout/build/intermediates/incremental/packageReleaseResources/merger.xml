@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="D:\OpenResource\CompatStatusBar\swipebacklayout\src\main\res"/><source path="D:\OpenResource\CompatStatusBar\swipebacklayout\build\generated\res\rs\release"/><source path="D:\OpenResource\CompatStatusBar\swipebacklayout\build\generated\res\resValues\release"/></dataSet><dataSet config="release$Generated" generated="true"><source path="D:\OpenResource\CompatStatusBar\swipebacklayout\src\release\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="D:\OpenResource\CompatStatusBar\swipebacklayout\src\main\res"><file name="shadow_bottom" path="D:\OpenResource\CompatStatusBar\swipebacklayout\src\main\res\drawable-xhdpi\shadow_bottom.png" qualifiers="xhdpi-v4" type="drawable"/><file name="shadow_left" path="D:\OpenResource\CompatStatusBar\swipebacklayout\src\main\res\drawable-xhdpi\shadow_left.png" qualifiers="xhdpi-v4" type="drawable"/><file name="shadow_right" path="D:\OpenResource\CompatStatusBar\swipebacklayout\src\main\res\drawable-xhdpi\shadow_right.png" qualifiers="xhdpi-v4" type="drawable"/><file name="swipeback_layout" path="D:\OpenResource\CompatStatusBar\swipebacklayout\src\main\res\layout\swipeback_layout.xml" qualifiers="" type="layout"/><file path="D:\OpenResource\CompatStatusBar\swipebacklayout\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="SwipeBackLayout">
+        <attr format="dimension" name="edge_size"/>
+        <attr name="edge_flag">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+            <enum name="bottom" value="2"/>
+            <enum name="all" value="3"/>
+        </attr>
+        <attr format="reference" name="shadow_left"/>
+        <attr format="reference" name="shadow_right"/>
+        <attr format="reference" name="shadow_bottom"/>
+    </declare-styleable><attr format="reference" name="SwipeBackLayoutStyle"/></file><file path="D:\OpenResource\CompatStatusBar\swipebacklayout\src\main\res\values\styles.xml" qualifiers=""><style name="SwipeBackLayout">
+        <item name="edge_size">50dip</item>
+        <item name="shadow_left">@drawable/shadow_left</item>
+        <item name="shadow_right">@drawable/shadow_right</item>
+        <item name="shadow_bottom">@drawable/shadow_bottom</item>
+    </style></file></source><source path="D:\OpenResource\CompatStatusBar\swipebacklayout\build\generated\res\rs\release"/><source path="D:\OpenResource\CompatStatusBar\swipebacklayout\build\generated\res\resValues\release"/></dataSet><dataSet config="release" generated-set="release$Generated"><source path="D:\OpenResource\CompatStatusBar\swipebacklayout\src\release\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="SwipeBackLayout"><attr format="dimension" name="edge_size"/><attr name="edge_flag">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+            <enum name="bottom" value="2"/>
+            <enum name="all" value="3"/>
+        </attr><attr format="reference" name="shadow_left"/><attr format="reference" name="shadow_right"/><attr format="reference" name="shadow_bottom"/></declare-styleable></configuration></mergedItems></merger>
