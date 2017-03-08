@@ -68,7 +68,6 @@ public class CompatStatusBarActivity extends BaseActivity {
         }
     }
 
-
     public int getStatusBarHeight() {
         int statusBarHeight = 0;
         int resourceId = getResources().getIdentifier("status_bar_height", "dimen", "android");
